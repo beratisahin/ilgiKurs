@@ -5,11 +5,11 @@ import WhatsAppIcon from "@material-ui/icons/WhatsApp";
 import EmailIcon from "@material-ui/icons/Email";
 import HomeIcon from "@material-ui/icons/Home";
 import SettingsPhoneIcon from "@material-ui/icons/SettingsPhone";
-import MainLogo from "../header/İlgiMainLogo.png";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { Link } from "react-router-dom";
 import PhoneIcon from '@material-ui/icons/Phone';
 import LocationOnIcon from '@material-ui/icons/LocationOn';
+import MainLogo from "../header/ilgiKursMerkezi.png"
 
 
 
@@ -29,8 +29,8 @@ export default class Foooter extends Component {
     return (
       <div id="footer">
         <div class="row p-4" style={{ backgroundColor: "white", height:"auto" }}>
-          <div className="col-lg-3 col-md-6 col-sm-6 col-12" style={{ fontSize: "15px",marginBottom:"2rem"  }}>
-            <a href="/" title="Medisam Ağız ve Diş Sağlığı Polikliniği" alt="Medisam Ağız ve Diş Sağlığı Polikliniği">
+          <div className="col-lg-4 col-md-6 col-sm-6 col-12" style={{ fontSize: "15px",marginBottom:"2rem"  }}>
+            <a href="/" title="Medisam Ağız ve Diş Sağlığı Polikliniği" alt="Tokat İlgi Kurs Merkezi">
               <img
                 src={MainLogo}
                 alt="logo"
@@ -52,7 +52,7 @@ export default class Foooter extends Component {
           </div>
 
 
-          <div className="col-lg-3 col-md-6 col-sm-6 col-12" style={{ fontSize: "12px",marginBottom:"2rem"  }}>
+          <div className="col-lg-4 col-md-6 col-sm-6 col-12" style={{ fontSize: "12px",marginBottom:"2rem"  }}>
             <b style={{ color: "#3d667c", fontSize: "18px" }}>Çalışma Takvimi</b>
             <hr/>
             <table class="table table-striped" >
@@ -94,9 +94,9 @@ export default class Foooter extends Component {
                         <p style={{color:"red",fontSize:"13px"}}></p>
           </div>
 
-          <div className="col-lg-3 col-md-6 col-sm-6 col-12" style={{ fontSize: "15px",marginBottom:"2rem"  }}>
+          <div className="col-lg-4 col-md-6 col-sm-6 col-12" style={{ fontSize: "15px",marginBottom:"2rem"  }}>
             <p style={{ color: "#3d667c", fontWeight: "bold", fontSize: "18px" }}>
-              Merzifon Medisam Life
+              Tokat İlgi Kurs Merkezi
             </p>
             <hr/>
             <a
@@ -169,87 +169,6 @@ export default class Foooter extends Component {
              
             </p>
           </div>
-
-
-          <div className="col-lg-3 col-md-6 col-sm-6 col-12" style={{ fontSize: "15px",marginBottom:"2rem" }}>
-            <p style={{ color: "#3d667c", fontWeight: "bold", fontSize: "18px" }}>
-              Vezirköprü Medisam Life
-            </p>
-            <hr/>
-            <a
-              href="https://www.facebook.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-              style={{ float: "left" }}
-            >
-              <FacebookIcon className="icon" style={{fontSize:"24px"}}/>
-            </a>
-            <a
-              href="https://www.instagram.com/medisamadsp/"
-              target="_blank"
-              rel="noopener noreferrer"
-              style={{ float: "left", textIndent: "10px" }}
-            >
-              <InstagramIcon className="icon" style={{fontSize:"24px"}}/>
-            </a>
-            <a
-              href="https://wa.me/+905453132855"
-              target="_blank"
-              rel="noopener noreferrer"
-              style={{ float: "left", textIndent: "10px" }}
-            >
-              <WhatsAppIcon className="icon" style={{fontSize:"24px"}}/>
-            </a>
-            <a
-              href="tel: +905453132855"
-              target="_blank"
-              rel="noopener noreferrer"
-              style={{ float: "left", textIndent: "10px" }}
-            >
-              <SettingsPhoneIcon className="icon" style={{fontSize:"24px"}} />
-            </a>
-
-            <br />
-            <br/>
-            <p style={{ fontSize: "14px", textAlign: "left" }}>
-              {" "}
-              <a href="mailto:medisamlifevezirkopru@gmail.com"> 
-                <EmailIcon style={{fontSize:"24px"}}/>
-              </a>
-              &nbsp;
-              medisamlifevezirkopru@gmail.com  
-            </p>
-            <p style={{ fontSize: "14px", textAlign: "left" }}>
-              {" "}
-              <a
-                href="tel: +905453132855"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <SettingsPhoneIcon style={{fontSize:"24px"}}/>
-              </a>
-              &nbsp;
-              0545 313 28 55  <FontAwesomeIcon icon="coffee" size="lg" />
-            </p>
-            <p style={{  fontSize: "14px", textAlign: "left" }}>
-              
-              <a 
-                href="https://www.google.com/maps/place/Yeni,+Haf%C4%B1z+Mustafa+Cd.+No:67,+05300+Merzifon%2FAmasya/@40.8757342,35.4455671,17z/data=!4m2!3m1!1s0x408702394c8ecf21:0x7d0637087a365c6a"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <HomeIcon style={{fontSize:"24px"}}/>
-              </a>
-              &nbsp;
-              Fazıl Ahmet Paşa Mah. 113. Sk. No:7 <br/> Vezirköprü / Samsun{" "}
-
-             
-            </p>
-          </div>
-
-
-
-
 
           <div className="col-12">
             

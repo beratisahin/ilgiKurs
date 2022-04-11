@@ -15,11 +15,6 @@ import Referanslarimiz from "./components/kurumsal/referanslarimiz/Referanslarim
 import Ekibimiz from "./components/kurumsal/ekibimiz/Ekibimiz";
 import Iletisim from "./components/iletisim/ContactForm";
 
-import Yirmi from "./components/hizmetler/agiz-dis-sagligi/Yirmiyas";
-import Gomulu from "./components/hizmetler/agiz-dis-sagligi/Gomulu";
-import Kist from "./components/hizmetler/agiz-dis-sagligi/Kist";
-import Cene from "./components/hizmetler/agiz-dis-sagligi/Cene";
-
 import Implant from "./components/hizmetler/agiz-dis-sagligi/Implant";
 import Protetik from "./components/hizmetler/agiz-dis-sagligi/Protetik";
 import Zirkonyum from "./components/hizmetler/agiz-dis-sagligi/Zirkonyum";
@@ -31,16 +26,10 @@ import Kanal from "./components/hizmetler/agiz-dis-sagligi/Kanal";
 import Periodontoloji from "./components/hizmetler/agiz-dis-sagligi/Periodontoloji";
 import Dijital from "./components/hizmetler/agiz-dis-sagligi/Dijital";
 
-import Merzifon from "./components/subeler/Merzifon";
-import Vezirkopru from "./components/subeler/Vezirkopru";
-import Havza from "./components/subeler/Havza";
-import Suluova from "./components/subeler/Suluova";
-import Gumushacikoy from "./components/subeler/Gumushacikoy";
-import Osmancik from "./components/subeler/Osmancik";
+
 
 import Galeri from "./components/galeri/Galeri";
-import Guzellik from "./components/hizmetler/lazer-epilasyon/Guzellik";
-import Sac from "./components/hizmetler/sac-ekim-merkezi/Sac";
+
 
 
 
@@ -65,11 +54,6 @@ function App() {
             <Route path="/referanslarimiz" component={Referanslarimiz} />
             <Route path="/hekimlerimiz" component={Ekibimiz} />
             
-
-            <Route path="/agiz-dis-sagligi/agiz-dis-ve-cene-cerrahisi/yirmi-yas-dis-tedavisi" component={Yirmi} />
-            <Route path="/agiz-dis-sagligi/agiz-dis-ve-cene-cerrahisi/gomulu-dis-operasyonlari" component={Gomulu} />
-            <Route path="/agiz-dis-sagligi/agiz-dis-ve-cene-cerrahisi/kist-ve-tumor-operasyonlari" component={Kist} />
-            <Route path="/agiz-dis-sagligi/agiz-dis-ve-cene-cerrahisi/cene-eklemi-rahatsizliklari" component={Cene} />
             
 
             <Route path="/agiz-dis-sagligi/implant" component={Implant} />
@@ -83,15 +67,6 @@ function App() {
             <Route path="/agiz-dis-sagligi/periodontoloji" component={Periodontoloji} />
             <Route path="/agiz-dis-sagligi/dijital-dis-hekimligi" component={Dijital} />
 
-            <Route path="/merzifon-dis" component={Merzifon} />
-            <Route path="/vezirkopru-dis" component={Vezirkopru} />
-            <Route path="/havza-dis" component={Havza} />
-            <Route path="/suluova-dis" component={Suluova} />
-            <Route path="/gumushacikoy-dis" component={Gumushacikoy} />
-            <Route path="/osmancik-dis" component={Osmancik} />
-
-            <Route path="/sac-ekim-merkezi" component={Sac} />
-            <Route path="/lazer-epilasyon-ve-guzellik-merkezi" component={Guzellik} />
             <Route path="/galeri" component={Galeri} />
             
             <Route path="/iletisim" component={Iletisim} />

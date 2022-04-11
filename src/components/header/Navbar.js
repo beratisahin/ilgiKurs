@@ -64,58 +64,18 @@ export default class Navbar extends Component {
             </a>
             <ul class="submenu">
 
-            <li class="has-dropdown">
-                <a class="menu-link">Ağız ve Diş Sağlığı &nbsp;
-                  <span class="arrow"></span>
-                </a>
-                <ul class="submenu">
-                 
-                  
-                  <li class="has-dropdown">
-                    <a class="menu-link">Ağız Diş ve Çene Cerrahisi&nbsp;
-                      <span class="arrow"></span>
-                    </a>
-                    <ul class="submenu">
-                      <li><a href="/agiz-dis-sagligi/agiz-dis-ve-cene-cerrahisi/yirmi-yas-dis-tedavisi" class="menu-link">20 Yaş Diş Tedavisi</a></li>
-                      <li><a href="/agiz-dis-sagligi/agiz-dis-ve-cene-cerrahisi/gomulu-dis-operasyonlari" class="menu-link">Gömülü Diş Operasyonları</a></li>
-                      <li><a href="/agiz-dis-sagligi/agiz-dis-ve-cene-cerrahisi/kist-ve-tumor-operasyonlari" class="menu-link">Kist ve Tümör Operasyonları</a></li>
-                      <li><a href="/agiz-dis-sagligi/agiz-dis-ve-cene-cerrahisi/cene-eklemi-rahatsizliklari" class="menu-link">Çene Eklemi Rahatsızlıkları</a></li>
-
-                    </ul>
-                  </li>
-                  <li><a href="/agiz-dis-sagligi/implant" class="menu-link">İmplant</a></li>
-                  <li><a href="/agiz-dis-sagligi/protetik-dis-tedavisi" class="menu-link">Protetik Diş Tedavisi</a></li>
-                  <li><a href="/agiz-dis-sagligi/zirkonyum-dis-kaplama" class="menu-link">Zirkonyum Diş Kaplama</a></li>
-                  <li><a href="/agiz-dis-sagligi/porselen-lamine" class="menu-link">Porselen Lamine</a></li>
-                  <li><a href="/agiz-dis-sagligi/dis-beyazlatma" class="menu-link">Diş Beyazlatma</a></li>
-                  <li><a href="/agiz-dis-sagligi/ortodonti" class="menu-link">Ortodonti (Tel Tedavisi)</a></li>
-                  <li><a href="/agiz-dis-sagligi/pedodonti" class="menu-link">Çocuk Diş Hekimliği (Pedodonti)</a></li>
-                  <li><a href="/agiz-dis-sagligi/kanal-ve-dolgu-tedavisi" class="menu-link">Kanal ve Dolgu Tedavisi</a></li>
-                  <li><a href="/agiz-dis-sagligi/periodontoloji" class="menu-link">Diş Eti Tedavisi (Periodontoloji)</a></li>
-                  <li><a href="/agiz-dis-sagligi/dijital-dis-hekimligi" class="menu-link">Dijital Diş Hekimliği</a></li>
-                 
-                </ul>
-              </li>
-
-              <li><a href="/lazer-epilasyon-ve-guzellik-merkezi" class="menu-link">Güzellik Merkezi</a></li>
-              <li><a href="/sac-ekim-merkezi" class="menu-link">Saç Ekim Merkezi</a></li>
+              <li><a href="/agiz-dis-sagligi/implant" class="menu-link">İmplant</a></li>
+              <li><a href="/agiz-dis-sagligi/protetik-dis-tedavisi" class="menu-link">Protetik Diş Tedavisi</a></li>
+              <li><a href="/agiz-dis-sagligi/zirkonyum-dis-kaplama" class="menu-link">Zirkonyum Diş Kaplama</a></li>
+              <li><a href="/agiz-dis-sagligi/porselen-lamine" class="menu-link">Porselen Lamine</a></li>
+              <li><a href="/agiz-dis-sagligi/dis-beyazlatma" class="menu-link">Diş Beyazlatma</a></li>
+            
               
             </ul>
           </li>
           <li><a href="/galeri" class="menu-link" style={{fontSize:"medium"}}><CameraAltIcon/>&nbsp;Galeri</a></li>
          
-          <li class="has-dropdown">
-            <a href="#" class="menu-link" style={{fontSize:"medium"}}><AccountTreeIcon/>&nbsp;Şubelerimiz &nbsp;
-              <span class="arrow"></span>
-            </a>
-            <ul class="submenu">
-            
-            <li><a href="/merzifon-dis" class="menu-link">Merzifon Diş Polikliniği</a></li>
-            <li><a href="/vezirkopru-dis" class="menu-link">Vezirköprü Diş Polikliniği</a></li>
-              
-              
-            </ul>
-          </li>
+          
           <li><a href="/iletisim" class="menu-link" style={{fontSize:"medium"}}><ContactMailIcon/>&nbsp;İletişim</a></li>
         </ul>
 
