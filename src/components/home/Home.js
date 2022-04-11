@@ -1,5 +1,4 @@
 import React from "react";
-import ReactPlayer from "react-player";
 import "./Home.css";
 import NedenBercislina from "../home/neden/Neden.js";
 import Mail from "../iletisim/ContactForm";
