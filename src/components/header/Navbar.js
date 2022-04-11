@@ -11,7 +11,7 @@ import HelpOutlineIcon from '@material-ui/icons/HelpOutline';
 import AccountTreeIcon from '@material-ui/icons/AccountTree';
 import LocalHospitalIcon from '@material-ui/icons/LocalHospital';
 import MoodIcon from '@material-ui/icons/Mood';
-import İlgiLogo from "../header/İlgiMainLogo.png";
+import İlgiKursMerkezi from "../header/ilgiKursMerkezi.png";
 export default class Navbar extends Component {
   componentDidMount () {
     const script = document.createElement("script");
@@ -33,7 +33,7 @@ export default class Navbar extends Component {
           <nav class="navbar">
             <div class="branding">
               <a href="/anasayfa">
-                <img  className="MedisamLogo" title="Medisam Ağız ve Diş Sağlığı Polikliniği" src={İlgiLogo}></img>
+                <img  className="MedisamLogo" title="Medisam Ağız ve Diş Sağlığı Polikliniği" src={İlgiKursMerkezi}></img>
               </a>
                 
             </div>

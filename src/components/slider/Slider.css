@@ -112,12 +112,12 @@
     }
     #slide{
         width: 100% !important;
-        display: none !important;
+        
     }
 
     .slidephoto{
         height: 25rem !important;
-       
+        width: 100% !important;
 
     }
     .sliderText{
