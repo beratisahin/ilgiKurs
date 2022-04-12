@@ -6,7 +6,7 @@ import "./Iletisim.css";
 import useDocumentTitle from '../../useDocumentTitle';
 
 
-import mailback from "./mailBack.jpg";
+import mailback from "./bgi2.jpg";
 
 
 
@@ -170,7 +170,7 @@ class ContactForm extends Component {
             display: "flex",
             justifyContent: "center",
             
-            backgroundImage: "url(" + mailback + ")",
+            backgroundColor:"#EBEBEB",
             backgroundPosition:"center",
             backgroundRepeat: "no-repeat",
             backgroundSize: "cover",

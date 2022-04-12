@@ -34,13 +34,13 @@ function Home() {
 
       <hr/>
       <div className="col-12">
-        <h2 className="doktorlarTitle" style={{textAlign:"center",fontSize:"x-large",color:"#3d667c",fontFamily: "'Times New Roman', Times, serif;"}}>Doktorlarımız</h2>
+        <h2 className="doktorlarTitle" style={{textAlign:"center",fontSize:"x-large",color:"#3d667c",fontFamily: "'Times New Roman', Times, serif;"}}>Öğretmenlerimiz</h2>
          <DoktorOwl/>
       </div>
       <br/>
       <hr/>
       <div className="col-12">
-      <h2 className="doktorlarTitle" style={{textAlign:"center",fontSize:"x-large",color:"#3d667c",fontFamily: "'Times New Roman', Times, serif;"}}>Kliniklerimiz</h2>
+      <h2 className="doktorlarTitle" style={{textAlign:"center",fontSize:"x-large",color:"#3d667c",fontFamily: "'Times New Roman', Times, serif;"}}>Dersliklerimiz</h2>
          <Klinik/>
       </div>
      

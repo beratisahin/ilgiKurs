@@ -9,7 +9,9 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { Link } from "react-router-dom";
 import PhoneIcon from '@material-ui/icons/Phone';
 import LocationOnIcon from '@material-ui/icons/LocationOn';
-import MainLogo from "../header/ilgiKursMerkezi.png"
+import MainLogo from "../header/ilgiKursMerkezi.png";
+import SettingsCell from "@material-ui/icons/SettingsCell";
+
 
 
 
@@ -124,7 +126,7 @@ export default class Foooter extends Component {
               <WhatsAppIcon className="icon" style={{fontSize:"24px"}}/>
             </a>
             <a
-              href="tel: +905461054500"
+              href="tel: +905422130993"
               target="_blank"
               rel="noopener noreferrer"
               style={{ float: "left", textIndent: "10px" }}
@@ -136,35 +138,49 @@ export default class Foooter extends Component {
             <br/>
             <p style={{ fontSize: "14px", textAlign: "left" }}>
               {" "}
-              <a href="mailto:medisamlifemerzifon@gmail.com">
+              <a href="mailto:tokatilgilkursmerkezi@gmail.com">
                 <EmailIcon style={{fontSize:"24px"}}/>
               </a>
               &nbsp;
-              medisamlifemerzifon@gmail.com  
+              tokatilgilkursmerkezi@gmail.com  
             </p>
             <p style={{  fontSize: "14px", textAlign: "left" }}>
               {" "}
               <a
-                href="tel: +905461054500"
+                href="tel: +905422130993"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <SettingsCell style={{fontSize:"24px"}}/>
+              </a>
+              &nbsp;
+              0542 213 09 93  <FontAwesomeIcon icon="coffee" size="lg" />
+              <br />
+            <br/>
+              <p style={{  fontSize: "14px", textAlign: "left" }}>
+              {" "}
+              <a
+                href="tel: +903562130993"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <SettingsPhoneIcon style={{fontSize:"24px"}}/>
               </a>
               &nbsp;
-              0546 105 45 00  <FontAwesomeIcon icon="coffee" size="lg" />
+              0356 213 09 93  <FontAwesomeIcon icon="coffee" size="lg" />
+            </p>
             </p>
             <p style={{  fontSize: "14px", textAlign: "left" }}>
               
               <a 
-                href="https://www.google.com/maps/place/Yeni,+Haf%C4%B1z+Mustafa+Cd.+No:67,+05300+Merzifon%2FAmasya/@40.8757342,35.4455671,17z/data=!4m2!3m1!1s0x408702394c8ecf21:0x7d0637087a365c6a"
+                href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3041.1123751275436!2d36.53736451539363!3d40.33985307937422!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x407db9fbf021f42f%3A0x77e8eb8ff325ac2c!2zQWx0xLF5w7x6ZXZsZXIsIMSwbWFtbMSxayBDZC4gTm86NCwgNjAyMDAgVG9rYXQgTWVya2V6L1Rva2F0!5e0!3m2!1str!2str!4v1649692137802!5m2!1str!2str"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <HomeIcon style={{fontSize:"24px"}}/>
               </a>
               &nbsp;
-              Yeni Mah. Hafız Mustafa Cd. No:67-1 <br/> Merzifon / Amasya{" "}
+              Altıyüzevler Mah. İmamlık Cad. No:4 <br/> Merkez / Tokat{" "}
 
              
             </p>
@@ -186,19 +202,19 @@ export default class Foooter extends Component {
 
 
           <div className="roof-location">
-              <a href="https://www.google.com/maps/place/Medisam+A%C4%9F%C4%B1z+ve+Di%C5%9F+Sa%C4%9Fl%C4%B1%C4%9F%C4%B1+Poliklini%C4%9Fi+-+Merzifon/@40.8757342,35.4455671,15z/data=!4m12!1m6!3m5!1s0x0:0xcdf3480789d414e0!2zTWVkaXNhbSBBxJ_EsXogdmUgRGnFnyBTYcSfbMSxxJ_EsSBQb2xpa2xpbmnEn2kgLSBNZXJ6aWZvbg!8m2!3d40.8757342!4d35.4455671!3m4!1s0x0:0xcdf3480789d414e0!8m2!3d40.8757342!4d35.4455671" className="location_float" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3041.1123751275436!2d36.53736451539363!3d40.33985307937422!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x407db9fbf021f42f%3A0x77e8eb8ff325ac2c!2zQWx0xLF5w7x6ZXZsZXIsIMSwbWFtbMSxayBDZC4gTm86NCwgNjAyMDAgVG9rYXQgTWVya2V6L1Rva2F0!5e0!3m2!1str!2str!4v1649692137802!5m2!1str!2str" className="location_float" target="_blank" rel="noopener noreferrer">
                   <LocationOnIcon className="location-icon"/>
               </a>
           </div>
 
           <div className="roof-phone">
-              <a href="tel: +905461054500" className="phone_float" target="_blank" rel="noopener noreferrer">
+              <a href="tel: +905422130993" className="phone_float" target="_blank" rel="noopener noreferrer">
                   <PhoneIcon className="phone-icon"/>  
               </a>
           </div>
 
           <div className="roof-whatsapp">
-              <a href="https://wa.me/+905461054500" className="whatsapp_float" target="_blank" rel="noopener noreferrer">
+              <a href="https://wa.me/+905422130993" className="whatsapp_float" target="_blank" rel="noopener noreferrer">
                   <WhatsAppIcon className="whatsapp-icon"/>
               </a>
           </div>
