@@ -1,4 +1,4 @@
-import "../hizmetler/agiz-dis-sagligi/Implant.css";
+import "../hizmetler/Implant.css";
 import React from 'react'
 import useDocumentTitle from "../../useDocumentTitle";
 import Title from "../title/Title";

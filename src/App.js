@@ -13,18 +13,13 @@ import Hakkimizda from "./components/kurumsal/hakkimizda/Hakkimizda";
 import Belgerimiz from "./components/kurumsal/belgelerimiz/Belgelerimiz";
 import Iletisim from "./components/iletisim/ContactForm";
 
-import Implant from "./components/hizmetler/agiz-dis-sagligi/Implant";
-import Protetik from "./components/hizmetler/agiz-dis-sagligi/Protetik";
-import Zirkonyum from "./components/hizmetler/agiz-dis-sagligi/Zirkonyum";
-import Porselen from "./components/hizmetler/agiz-dis-sagligi/Porselen";
-import Beyazlatma from "./components/hizmetler/agiz-dis-sagligi/Beyazlatma";
-import Ortodonti from "./components/hizmetler/agiz-dis-sagligi/Ortodonti";
-import Pedodonti from "./components/hizmetler/agiz-dis-sagligi/Pedodonti";
-import Kanal from "./components/hizmetler/agiz-dis-sagligi/Kanal";
-import Periodontoloji from "./components/hizmetler/agiz-dis-sagligi/Periodontoloji";
-import Dijital from "./components/hizmetler/agiz-dis-sagligi/Dijital";
-
-
+import Implant from "./components/hizmetler/Implant";
+import Ogretmen from "./components/hizmetler/Ogretmen";
+import Ogrenci from "./components/hizmetler/Ogrenci";
+import Soru from "./components/hizmetler/Soru";
+import Sinav from "./components/hizmetler/Sinav";
+import Odev from "./components/hizmetler/Odev";
+import Yayin from "./components/hizmetler/Yayin";
 
 import Fotograf from "./components/galeri/Fotograf";
 import Video from "./components/galeri/Video.js";
@@ -54,15 +49,13 @@ function App() {
             
 
             <Route path="/agiz-dis-sagligi/implant" component={Implant} />
-            <Route path="/agiz-dis-sagligi/protetik-dis-tedavisi" component={Protetik} />
-            <Route path="/agiz-dis-sagligi/zirkonyum-dis-kaplama" component={Zirkonyum} />
-            <Route path="/agiz-dis-sagligi/porselen-lamine" component={Porselen} />
-            <Route path="/agiz-dis-sagligi/dis-beyazlatma" component={Beyazlatma} />
-            <Route path="/agiz-dis-sagligi/ortodonti" component={Ortodonti} />
-            <Route path="/agiz-dis-sagligi/pedodonti" component={Pedodonti} />
-            <Route path="/agiz-dis-sagligi/kanal-ve-dolgu-tedavisi" component={Kanal} />
-            <Route path="/agiz-dis-sagligi/periodontoloji" component={Periodontoloji} />
-            <Route path="/agiz-dis-sagligi/dijital-dis-hekimligi" component={Dijital} />
+            <Route path="/tecrubeli-ogretmen-kadrosu" component={Ogretmen} />
+            <Route path="/profesyonel-ogrenci-koclugu" component={Ogrenci} />
+            <Route path="/soru-cozum-ve-etut-saatleri" component={Soru} />
+            <Route path="/turkiye-geneli-deneme-sinavi" component={Sinav} />
+            <Route path="/okul-ve-odev-takip-sistemi" component={Odev} />
+            <Route path="/kaliteli-yayinlar" component={Yayin} />
+
 
             <Route path="/fotograflar" component={Fotograf} />
             <Route path="/videolar" component={Video} />

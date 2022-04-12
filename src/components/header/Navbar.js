@@ -35,7 +35,7 @@ export default class Navbar extends Component {
           <nav class="navbar">
             <div class="branding">
               <a href="/anasayfa">
-                <img  className="MedisamLogo" title="Medisam Ağız ve Diş Sağlığı Polikliniği" src={İlgiKursMerkezi}></img>
+                <img  className="MedisamLogo" title="Tokat İlgi Kurs Merkezi" src={İlgiKursMerkezi}></img>
               </a>
                 
             </div>
@@ -63,12 +63,12 @@ export default class Navbar extends Component {
             </a>
             <ul class="submenu">
 
-              <li><a href="/agiz-dis-sagligi/implant" class="menu-link">Tecrübeli Öğretmen Kadrosu</a></li>
-              <li><a href="/agiz-dis-sagligi/protetik-dis-tedavisi" class="menu-link">Profesyonel Öğrenci Koçluğu</a></li>
-              <li><a href="/agiz-dis-sagligi/zirkonyum-dis-kaplama" class="menu-link">Soru Çözüm ve Etüt Saatleri</a></li>
-              <li><a href="/agiz-dis-sagligi/porselen-lamine" class="menu-link">Türkiye Geneli Deneme Sınavı</a></li>
-              <li><a href="/agiz-dis-sagligi/dis-beyazlatma" class="menu-link">Okul ve Ödev Takip Sistemi</a></li>
-              <li><a href="/agiz-dis-sagligi/dis-beyazlatma" class="menu-link">Kaliteli Yayınlar</a></li>
+              <li><a href="tecrubeli-ogretmen-kadrosu" class="menu-link">Tecrübeli Öğretmen Kadrosu</a></li>
+              <li><a href="/profesyonel-ogrenci-koclugu" class="menu-link">Profesyonel Öğrenci Koçluğu</a></li>
+              <li><a href="/soru-cozum-ve-etut-saatleri" class="menu-link">Soru Çözüm ve Etüt Saatleri</a></li>
+              <li><a href="/turkiye-geneli-deneme-sinavi" class="menu-link">Türkiye Geneli Deneme Sınavı</a></li>
+              <li><a href="/okul-ve-odev-takip-sistemi" class="menu-link">Okul ve Ödev Takip Sistemi</a></li>
+              <li><a href="/kaliteli-yayinlar" class="menu-link">Kaliteli Yayınlar</a></li>
 
             
               

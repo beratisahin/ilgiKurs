@@ -1,7 +1,8 @@
 import "./Implant.css";
+
 import React from 'react'
-import useDocumentTitle from "../../../useDocumentTitle";
-import Title from "../../title/Title";
+import useDocumentTitle from "../../useDocumentTitle";
+import Title from "../title/Title";
 
 export default function Implant() {
     useDocumentTitle('İmplant - Medisam Tıp Merkezi');
