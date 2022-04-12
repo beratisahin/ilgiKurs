@@ -28,7 +28,7 @@ import Dijital from "./components/hizmetler/agiz-dis-sagligi/Dijital";
 
 import Fotograf from "./components/galeri/Fotograf";
 import Video from "./components/galeri/Video.js";
-
+import Duyuru from "./components/galeri/Duyuru.js";
 
 
 
@@ -66,6 +66,8 @@ function App() {
 
             <Route path="/fotograflar" component={Fotograf} />
             <Route path="/videolar" component={Video} />
+            <Route path="/duyurular" component={Duyuru} />
+
 
             
             <Route path="/iletisim" component={Iletisim} />

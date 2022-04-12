@@ -8,6 +8,11 @@ import CameraAltIcon from '@material-ui/icons/CameraAlt';
 import ContactMailIcon from '@material-ui/icons/ContactMail';
 import HomeIcon from '@material-ui/icons/Home';
 import CastForEducationIcon from '@material-ui/icons/CastForEducation';
+import AcUnitIcon from '@material-ui/icons/AcUnit';
+import ContactlessIcon from '@material-ui/icons/Contactless';
+
+
+
 import İlgiKursMerkezi from "../header/ilgiKursMerkezi.png";
 export default class Navbar extends Component {
   componentDidMount () {
@@ -58,11 +63,13 @@ export default class Navbar extends Component {
             </a>
             <ul class="submenu">
 
-              <li><a href="/agiz-dis-sagligi/implant" class="menu-link">İmplant</a></li>
-              <li><a href="/agiz-dis-sagligi/protetik-dis-tedavisi" class="menu-link">Protetik Diş Tedavisi</a></li>
-              <li><a href="/agiz-dis-sagligi/zirkonyum-dis-kaplama" class="menu-link">Zirkonyum Diş Kaplama</a></li>
-              <li><a href="/agiz-dis-sagligi/porselen-lamine" class="menu-link">Porselen Lamine</a></li>
-              <li><a href="/agiz-dis-sagligi/dis-beyazlatma" class="menu-link">Diş Beyazlatma</a></li>
+              <li><a href="/agiz-dis-sagligi/implant" class="menu-link">Tecrübeli Öğretmen Kadrosu</a></li>
+              <li><a href="/agiz-dis-sagligi/protetik-dis-tedavisi" class="menu-link">Profesyonel Öğrenci Koçluğu</a></li>
+              <li><a href="/agiz-dis-sagligi/zirkonyum-dis-kaplama" class="menu-link">Soru Çözüm ve Etüt Saatleri</a></li>
+              <li><a href="/agiz-dis-sagligi/porselen-lamine" class="menu-link">Türkiye Geneli Deneme Sınavı</a></li>
+              <li><a href="/agiz-dis-sagligi/dis-beyazlatma" class="menu-link">Okul ve Ödev Takip Sistemi</a></li>
+              <li><a href="/agiz-dis-sagligi/dis-beyazlatma" class="menu-link">Kaliteli Yayınlar</a></li>
+
             
               
             </ul>
@@ -80,7 +87,7 @@ export default class Navbar extends Component {
             </ul>
           </li>
          
-          
+          <li><a href="/duyurular" class="menu-link" style={{fontSize:"medium"}}><ContactlessIcon/>&nbsp;Duyurular</a></li>
           <li><a href="/iletisim" class="menu-link" style={{fontSize:"medium"}}><ContactMailIcon/>&nbsp;İletişim</a></li>
         </ul>
 
