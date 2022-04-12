@@ -11,8 +11,6 @@ import {
 import Home from "./components/home/Home";
 import Hakkimizda from "./components/kurumsal/hakkimizda/Hakkimizda";
 import Belgerimiz from "./components/kurumsal/belgelerimiz/Belgelerimiz";
-import Referanslarimiz from "./components/kurumsal/referanslarimiz/Referanslarimiz";
-import Ekibimiz from "./components/kurumsal/ekibimiz/Ekibimiz";
 import Iletisim from "./components/iletisim/ContactForm";
 
 import Implant from "./components/hizmetler/agiz-dis-sagligi/Implant";
@@ -28,7 +26,8 @@ import Dijital from "./components/hizmetler/agiz-dis-sagligi/Dijital";
 
 
 
-import Galeri from "./components/galeri/Galeri";
+import Fotograf from "./components/galeri/Fotograf";
+import Video from "./components/galeri/Video.js";
 
 
 
@@ -50,9 +49,7 @@ function App() {
             <Route exact path="/" component={Home} />
             <Route exact path="/anasayfa" component={Home} />
             <Route path="/hakkimizda" component={Hakkimizda} />
-            <Route path="/belgelerimiz" component={Belgerimiz} />
-            <Route path="/referanslarimiz" component={Referanslarimiz} />
-            <Route path="/hekimlerimiz" component={Ekibimiz} />
+            <Route path="/vizyonumuz" component={Belgerimiz} />
             
             
 
@@ -67,7 +64,9 @@ function App() {
             <Route path="/agiz-dis-sagligi/periodontoloji" component={Periodontoloji} />
             <Route path="/agiz-dis-sagligi/dijital-dis-hekimligi" component={Dijital} />
 
-            <Route path="/galeri" component={Galeri} />
+            <Route path="/fotograflar" component={Fotograf} />
+            <Route path="/videolar" component={Video} />
+
             
             <Route path="/iletisim" component={Iletisim} />
 

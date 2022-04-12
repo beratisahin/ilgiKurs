@@ -7,10 +7,7 @@ import BusinessIcon from '@material-ui/icons/Business';
 import CameraAltIcon from '@material-ui/icons/CameraAlt';
 import ContactMailIcon from '@material-ui/icons/ContactMail';
 import HomeIcon from '@material-ui/icons/Home';
-import HelpOutlineIcon from '@material-ui/icons/HelpOutline';
-import AccountTreeIcon from '@material-ui/icons/AccountTree';
-import LocalHospitalIcon from '@material-ui/icons/LocalHospital';
-import MoodIcon from '@material-ui/icons/Mood';
+import CastForEducationIcon from '@material-ui/icons/CastForEducation';
 import İlgiKursMerkezi from "../header/ilgiKursMerkezi.png";
 export default class Navbar extends Component {
   componentDidMount () {
@@ -48,18 +45,15 @@ export default class Navbar extends Component {
             <ul class="submenu">
             
             <li><a href="/hakkimizda" class="menu-link">Hakkımızda</a></li>
-            <li><a href="/belgelerimiz" class="menu-link">Belgelerimiz</a></li>
-            <li><a href="/hekimlerimiz" class="menu-link">Hekimlerimiz</a></li>
-            <li><a href="/referanslarimiz" class="menu-link">Referanslarımız</a></li>
-
-              
+            <li><a href="/vizyonumuz" class="menu-link">Vizyonumuz</a></li>
+      
               
             </ul>
           </li>
 
           
           <li class="has-dropdown">
-            <a href="#" class="menu-link" style={{fontSize:"medium"}}><LocalHospitalIcon/>&nbsp;Hizmetlerimiz &nbsp;
+            <a href="#" class="menu-link" style={{fontSize:"medium"}}><CastForEducationIcon/>&nbsp;Hizmetlerimiz &nbsp;
               <span class="arrow"></span>
             </a>
             <ul class="submenu">
@@ -73,7 +67,18 @@ export default class Navbar extends Component {
               
             </ul>
           </li>
-          <li><a href="/galeri" class="menu-link" style={{fontSize:"medium"}}><CameraAltIcon/>&nbsp;Galeri</a></li>
+          <li class="has-dropdown">
+            <a href="#" class="menu-link" style={{fontSize:"medium"}}><CameraAltIcon/>&nbsp;Galeri &nbsp;
+              <span class="arrow"></span>
+            </a>
+            <ul class="submenu">
+            
+            <li><a href="/fotograflar" class="menu-link">Fotoğraf</a></li>
+            <li><a href="/videolar" class="menu-link">Video</a></li>
+      
+              
+            </ul>
+          </li>
          
           
           <li><a href="/iletisim" class="menu-link" style={{fontSize:"medium"}}><ContactMailIcon/>&nbsp;İletişim</a></li>

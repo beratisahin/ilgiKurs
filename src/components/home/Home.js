@@ -6,7 +6,6 @@ import Slider from "../slider/Slider";
 import DoktorOwl from "../doktorlar/DoktorOwl.js";
 import Klinik from "../klinik/Klinik.js";
 
-import testimg from "../header/MedisamYuvarlakLogo.png"
 import Test from "../test/Test";
 
 
