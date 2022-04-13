@@ -55,8 +55,11 @@
     margin-top: 50px !important;
     transition: 0.4s;
     transition-property: transform;
-    color: #168B80 !important;
+    color: #F5BF2B !important;
     font-weight: bolder !important;
+  }
+  .serviceTitle{
+    color: #66CC00 !important;
   }
   
   .image:hover .details h2{

@@ -1,14 +1,10 @@
 import './Slider.css';
 
 
-import s9 from '../medya/slider9.jpeg';
-import sl1 from "../medya/sli1.jpg";
-import sl2 from "../medya/sli2.jpeg";
-import sl4 from "../medya/sl4.jpg";
+import is1 from "./s1.jpeg";
+import is2 from "./s2.jpeg";
+import is3 from "./s3.jpeg";
 
-import r1 from "../medya/slider10.jpeg";
-import r2 from "../medya/slider11.jpeg";
-import r3 from "../medya/slider12.jpeg";
 
 import EmHa from "../medya/EmreHayati.jpeg"
 
@@ -28,7 +24,7 @@ export default class Slider extends Component {
                     <div className="carousel-inner">
                     
                         <div className="carousel-item active" data-interval="3000">
-                            <img src={sl1} className="d-block img-responsive w-100 slidephoto" title="Cilt Bakımı" alt="logo"></img>
+                            <img src={is1} className="d-block img-responsive w-100 slidephoto" title="Cilt Bakımı" alt="logo"></img>
                             
                             <div class="carousel-caption d-none d-md-block">
                                 <h3 className="sliderHeader">Kayıtlarımız başlamıştır</h3>
@@ -39,7 +35,7 @@ export default class Slider extends Component {
                            
                          </div>
                          <div className="carousel-item" data-interval="3000">
-                            <img src={EmHa} className="d-block img-responsive w-100 slidephoto" title="Cilt Bakımı" alt="logo"></img>
+                            <img src={is2} className="d-block img-responsive w-100 slidephoto" title="Cilt Bakımı" alt="logo"></img>
                             
                             <div class="carousel-caption d-none d-md-block">
                                 <h3 className="sliderHeader">Kayıtlarımız başlamıştır</h3>
@@ -50,7 +46,7 @@ export default class Slider extends Component {
                            
                          </div>
                          <div className="carousel-item" data-interval="2000">
-                            <img src={r1} className="d-block img-responsive w-100 slidephoto" title="Epilasyon" alt="logo" ></img>
+                            <img src={is3} className="d-block img-responsive w-100 slidephoto" title="Epilasyon" alt="logo" ></img>
                             
                             <div class="carousel-caption d-none d-sm-block">
                                 <h3 className="sliderHeader">Kayıtlarımız başlamıştır</h3>
@@ -58,56 +54,6 @@ export default class Slider extends Component {
                                
                             </div>
                             
-                        </div>
-                        <div className="carousel-item" data-interval="2000">
-                            <img src={r2} className="d-block img-responsive w-100 slidephoto" title="Epilasyon" alt="logo" ></img>
-                            
-                            <div class="carousel-caption d-none d-sm-block">
-                                <h3 className="sliderHeader">Kayıtlarımız başlamıştır</h3>
-                                <p className="sliderText"></p>
-                               
-                            </div>
-                            
-                        </div>
-                        <div className="carousel-item" data-interval="2000">
-                            <img src={r3} className="d-block img-responsive w-100 slidephoto" title="Epilasyon" alt="logo" ></img>
-                            
-                            <div class="carousel-caption d-none d-sm-block">
-                                <h3 className="sliderHeader">Kayıtlarımız başlamıştır</h3>
-                                <p className="sliderText"></p>
-                               
-                            </div>
-                            
-                        </div>
-                        <div className="carousel-item" data-interval="2000">
-                            <img src={s9} className="d-block img-responsive w-100 slidephoto" title="Epilasyon" alt="logo" ></img>
-                            
-                            <div class="carousel-caption d-none d-sm-block">
-                                <h3 className="sliderHeader">Kayıtlarımız başlamıştır</h3>
-                                <p className="sliderText"></p>
-                               
-                            </div>
-                            
-                        </div>
-                       
-
-                        <div className="carousel-item">
-                            <img src={sl2} className="d-block img-responsive w-100 slidephoto" title="Kalıcı Makyaj" alt="logo" ></img>
-                            
-                            <div class="carousel-caption d-none d-md-block">
-                                <h3 className="sliderHeader">Kayıtlarımız başlamıştır</h3>
-                                <p className="sliderText"></p> 
-                            </div>
-                        </div>
-
-                        
-                        <div className="carousel-item">
-                            <img src={sl4} className="d-block img-responsive w-100 slidephoto" title="Kalıcı Makyaj" alt="logo" ></img>
-                            
-                            <div class="carousel-caption d-none d-md-block">
-                                <h3 className="sliderHeader">Kayıtlarımız başlamıştır</h3>
-                                <p className="sliderText"></p> 
-                            </div>
                         </div>
                     </div>
 

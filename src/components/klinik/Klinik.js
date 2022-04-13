@@ -53,32 +53,32 @@ export default function Klinik() {
                  
                 <div className="item owl-slider">
                     <div className="owlCarouselTempKlinik">
-                        <img src={r2} className="owlCarouselImageKlinik" alt="Merzifon Diş Medisam" title="Merzifon Diş Medisam"></img>
+                        <img src={r2} className="owlCarouselImageKlinik" alt="Tokat İlgi Kurs Merkezi" title="Tokat İlgi Kurs Merkezi"></img>
                     </div>
                 </div>
                 <div className="item owl-slider">
                     <div className="owlCarouselTempKlinik">
-                        <img src={r3} className="owlCarouselImageKlinik" alt="Vezirköprü Diş Medisam" title="Vezirköprü Diş Medisam"></img>
+                        <img src={r3} className="owlCarouselImageKlinik" alt="Tokat İlgi Kurs Merkezi" title="Tokat İlgi Kurs Merkezi"></img>
                     </div>
                 </div>
                 <div className="item owl-slider">
                     <div className="owlCarouselTempKlinik">
-                        <img src={r4} className="owlCarouselImageKlinik" alt="Merzifon Diş Medisam" title="Merzifon Diş Medisam"></img>
+                        <img src={r4} className="owlCarouselImageKlinik" alt="Tokat İlgi Kurs Merkezi" title="Tokat İlgi Kurs Merkezi"></img>
                     </div>
                 </div>
                 <div className="item owl-slider">
                     <div className="owlCarouselTempKlinik">
-                        <img src={r6} className="owlCarouselImageKlinik" alt="Vezirköprü Diş Medisam" title="Vezirköprü Diş Medisam"></img>
+                        <img src={r6} className="owlCarouselImageKlinik" alt="Tokat İlgi Kurs Merkezi" title="Tokat İlgi Kurs Merkezi"></img>
                     </div>
                 </div>
                 <div className="item owl-slider">
                     <div className="owlCarouselTempKlinik">
-                        <img src={r8} className="owlCarouselImageKlinik" alt="Merzifon Diş Medisam" title="Merzifon Diş Medisam"></img>
+                        <img src={r8} className="owlCarouselImageKlinik" alt="Tokat İlgi Kurs Merkezi" title="Tokat İlgi Kurs Merkezi"></img>
                     </div>
                 </div>
                 <div className="item owl-slider">
                     <div className="owlCarouselTempKlinik">
-                        <img src={r11} className="owlCarouselImageKlinik" alt="Vezirköprü Diş Medisam" title="Vezirköprü Diş Medisam"></img>
+                        <img src={r11} className="owlCarouselImageKlinik" alt="Tokat İlgi Kurs Merkezi" title="Tokat İlgi Kurs Merkezi"></img>
                     </div>
                 </div>
                 
