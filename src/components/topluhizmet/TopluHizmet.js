@@ -15,7 +15,7 @@ export default function TopluHizmet() {
         <div class="col-12" style={{width:"100%",display:"flex",justifyContent:"center",flexWrap:"wrap",marginLeft:"-2rem"}}>
             <div class="col-lg-4 col-md-6 col-sm-12 col-12">
                 <Taslak 
-                    taslaktitle="Ortodonti"
+                    taslaktitle="Muhammet"
                     taslakphoto={ortodonti}
                     taslaktext="Ortodonti, diş hekimliğin bir uzmanlık dalıdır. Ortodonti tedavisi uygulayan doktora ortodontist denilmektedir."
                     taslaklink="/agiz-dis-sagligi/ortodonti"
