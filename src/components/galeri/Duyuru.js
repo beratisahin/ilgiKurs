@@ -18,7 +18,7 @@ export default function Duyuru() {
                         <h4 className="blogTitle">Kayıt Başvurusu Hk</h4>
                             <div className="blogScrollText" style={{height:"200px",width:"100%",overflow:"auto",padding:"1rem"}}><p class="blogContent">Kurslarımızın kontenjanı sınırlı sayıda olup başvurunun fazla olması durumunda kayıtlar başvuru önceliğine göre yapılacaktır.  Kurslar açılmadan önce tarafınıza mutlaka bilgilendirme mesajı gönderilecektir.
                                     Lütfen katılmayacağınız bir kursa ön kayıt işlemi yapmayınız. 
-                                    2020 - 2021 Eğitim Öğretim yılında Çelebi Kurs Merkezimiz ve Karatay ilçemiz sınırları içerisinde bulunan diğer kurs merkezlerimizde açacağımız kurslara ön kayıt işleminizi aşağıdaki linke tıklayarak yapabilirsiniz.</p>
+                                    2022 - 2023 Eğitim Öğretim yılında Tokat İlgi Kurs Merkezimiz ve Tokat ilimiz sınırları içerisinde bulunan diğer kurs merkezlerimizde açacağımız kurslara ön kayıt işleminizi iletişim bölümündeki bilgiler üzerinden ulaşarak yapabilirsiniz.</p>
                             </div>
                 </div>
 
@@ -27,7 +27,7 @@ export default function Duyuru() {
                         <h4 className="blogTitle">Kayıt Başvurusu Hk</h4>
                             <div className="blogScrollText" style={{height:"200px",width:"100%",overflow:"auto",padding:"1rem"}}><p class="blogContent">Kurslarımızın kontenjanı sınırlı sayıda olup başvurunun fazla olması durumunda kayıtlar başvuru önceliğine göre yapılacaktır.  Kurslar açılmadan önce tarafınıza mutlaka bilgilendirme mesajı gönderilecektir.
                                     Lütfen katılmayacağınız bir kursa ön kayıt işlemi yapmayınız. 
-                                    2020 - 2021 Eğitim Öğretim yılında Çelebi Kurs Merkezimiz ve Karatay ilçemiz sınırları içerisinde bulunan diğer kurs merkezlerimizde açacağımız kurslara ön kayıt işleminizi aşağıdaki linke tıklayarak yapabilirsiniz.</p>
+                                    2022 - 2023 Eğitim Öğretim yılında Tokat İlgi Kurs Merkezimiz ve Tokat ilimiz sınırları içerisinde bulunan diğer kurs merkezlerimizde açacağımız kurslara ön kayıt işleminizi iletişim bölümündeki bilgiler üzerinden ulaşarak yapabilirsiniz.</p>
                             </div>
                 </div>
 
@@ -36,7 +36,7 @@ export default function Duyuru() {
                         <h4 className="blogTitle">Kayıt Başvurusu Hk</h4>
                             <div className="blogScrollText" style={{height:"200px",width:"100%",overflow:"auto",padding:"1rem"}}><p class="blogContent">Kurslarımızın kontenjanı sınırlı sayıda olup başvurunun fazla olması durumunda kayıtlar başvuru önceliğine göre yapılacaktır.  Kurslar açılmadan önce tarafınıza mutlaka bilgilendirme mesajı gönderilecektir.
                                     Lütfen katılmayacağınız bir kursa ön kayıt işlemi yapmayınız. 
-                                    2020 - 2021 Eğitim Öğretim yılında Çelebi Kurs Merkezimiz ve Karatay ilçemiz sınırları içerisinde bulunan diğer kurs merkezlerimizde açacağımız kurslara ön kayıt işleminizi aşağıdaki linke tıklayarak yapabilirsiniz.</p>
+                                    2022 - 2023 Eğitim Öğretim yılında Tokat İlgi Kurs Merkezimiz ve Tokat ilimiz sınırları içerisinde bulunan diğer kurs merkezlerimizde açacağımız kurslara ön kayıt işleminizi iletişim bölümündeki bilgiler üzerinden ulaşarak yapabilirsiniz.</p>
                             </div>
                 </div>
            
