@@ -18,8 +18,8 @@ render() {
         
                         <a href={taslaklink} class="read-more">Daha Fazla Bilgi</a>
                         <div class="icon-links">
-                                <a href="#"><i class="fas fa-tooth"></i></a>
-                                <a href="#"><i class="fas fa-teeth-open"></i></a>
+                                <a href="#"><i class="fas fa-highlighter"></i></a>
+                                <a href="#"><i class="fas fa-paste"></i></a>
                                 <a href="#"><i class="fas fa-heart"></i></a>
                         </div>
                 </div>
