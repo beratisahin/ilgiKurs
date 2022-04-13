@@ -74,7 +74,8 @@ export default class Navbar extends Component {
               
             </ul>
           </li>
-          <li class="has-dropdown">
+          
+          <li class="has-dropdown" style={{display:"none"}}>
             <a href="#" class="menu-link" style={{fontSize:"medium"}}><CameraAltIcon/>&nbsp;Galeri &nbsp;
               <span class="arrow"></span>
             </a>

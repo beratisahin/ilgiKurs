@@ -5,12 +5,6 @@ import is1 from "./s1.jpeg";
 import is2 from "./s2.jpeg";
 import is3 from "./s3.jpeg";
 
-
-
-import EmHa from "../medya/EmreHayati.jpeg"
-
-
-
 import React, { Component } from 'react'
 
 export default class Slider extends Component {
