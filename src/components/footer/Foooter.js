@@ -110,7 +110,7 @@ export default class Foooter extends Component {
               <FacebookIcon className="icon" style={{fontSize:"24px"}}/>
             </a>
             <a
-              href="https://www.instagram.com/medisamadsp/"
+              href="https://www.instagram.com/"
               target="_blank"
               rel="noopener noreferrer"
               style={{ float: "left", textIndent: "10px" }}
@@ -118,7 +118,7 @@ export default class Foooter extends Component {
               <InstagramIcon className="icon" style={{fontSize:"24px"}}/>
             </a>
             <a
-              href="https://wa.me/+905461054500"
+              href="https://wa.me/+905422130993"
               target="_blank"
               rel="noopener noreferrer"
               style={{ float: "left", textIndent: "10px" }}
