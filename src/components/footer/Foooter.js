@@ -173,7 +173,7 @@ export default class Foooter extends Component {
             <p style={{  fontSize: "14px", textAlign: "left" }}>
               
               <a 
-                href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3041.1123751275436!2d36.53736451539363!3d40.33985307937422!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x407db9fbf021f42f%3A0x77e8eb8ff325ac2c!2zQWx0xLF5w7x6ZXZsZXIsIMSwbWFtbMSxayBDZC4gTm86NCwgNjAyMDAgVG9rYXQgTWVya2V6L1Rva2F0!5e0!3m2!1str!2str!4v1649692137802!5m2!1str!2str"
+                href="https://www.google.com/maps?q=Alt%C4%B1y%C3%BCzevler+Mah.+%C4%B0maml%C4%B1k+Cad.+No:4+Merkez+/+Tokat&rlz=1C1GCEU_enTR867TR868&um=1&ie=UTF-8&sa=X&ved=2ahUKEwi9uYK325H3AhVxS_EDHbHkA3AQ_AUoAXoECAEQAw"
                 target="_blank"
                 rel="noopener noreferrer"
               >
