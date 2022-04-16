@@ -5,7 +5,7 @@ import useDocumentTitle from '../../../useDocumentTitle';
 import Title from "../../title/Title";
 
 function Hakkimizda() {
-    useDocumentTitle('Hakkımızda - Medisam Ağız ve Diş Sağlığı Polikliniği');
+    useDocumentTitle('Hakkımızda - Tokat İlgi Kurs Merkezi');
     return (
         
         <div className="col-12">
