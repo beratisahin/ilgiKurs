@@ -42,9 +42,9 @@ export default class Navbar extends Component {
             <label for="input-hamburger" class="hamburger "></label>
             <input type="checkbox" id="input-hamburger" hidden></input>
         <ul class="menu">
-          <li><a href="/" class="menu-link" style={{fontSize:"medium"}}><HomeIcon/>&nbsp;Ana Sayfa</a></li>
+          <li><a href="/" class="menu-link" style={{fontSize:"medium"}}><HomeIcon style={{fontSize:"medium"}}/>&nbsp;Ana Sayfa</a></li>
           <li class="has-dropdown">
-            <a href="#" class="menu-link" style={{fontSize:"medium"}}><BusinessIcon/>&nbsp;Kurumsal &nbsp;
+            <a href="#" class="menu-link" style={{fontSize:"medium"}}><BusinessIcon style={{fontSize:"medium"}}/>&nbsp;Kurumsal &nbsp;
               <span class="arrow"></span>
             </a>
             <ul class="submenu">
@@ -58,7 +58,7 @@ export default class Navbar extends Component {
 
           
           <li class="has-dropdown">
-            <a href="#" class="menu-link" style={{fontSize:"medium"}}><CastForEducationIcon/>&nbsp;Hizmetlerimiz &nbsp;
+            <a href="#" class="menu-link" style={{fontSize:"medium"}}><CastForEducationIcon style={{fontSize:"medium"}}/>&nbsp;Hizmetlerimiz &nbsp;
               <span class="arrow"></span>
             </a>
             <ul class="submenu">
@@ -76,7 +76,7 @@ export default class Navbar extends Component {
           </li>
           
           <li class="has-dropdown" style={{display:"none"}}>
-            <a href="#" class="menu-link" style={{fontSize:"medium"}}><CameraAltIcon/>&nbsp;Galeri &nbsp;
+            <a href="#" class="menu-link" style={{fontSize:"medium"}}><CameraAltIcon style={{fontSize:"medium"}}/>&nbsp;Galeri &nbsp;
               <span class="arrow"></span>
             </a>
             <ul class="submenu">
@@ -88,8 +88,8 @@ export default class Navbar extends Component {
             </ul>
           </li>
          
-          <li><a href="/duyurular" class="menu-link" style={{fontSize:"medium"}}><ContactlessIcon/>&nbsp;Duyurular</a></li>
-          <li><a href="/iletisim" class="menu-link" style={{fontSize:"medium"}}><ContactMailIcon/>&nbsp;İletişim</a></li>
+          <li><a href="/duyurular" class="menu-link" style={{fontSize:"medium"}}><ContactlessIcon style={{fontSize:"medium"}}/>&nbsp;Duyurular</a></li>
+          <li><a href="/iletisim" class="menu-link" style={{fontSize:"medium"}}><ContactMailIcon style={{fontSize:"medium"}}/>&nbsp;İletişim</a></li>
         </ul>
 
 

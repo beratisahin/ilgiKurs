@@ -14,7 +14,7 @@
   }
   .image:hover{
     
-    border:2px outset #168B80;
+    border:2px outset #3c667c !important;
     
   }
 
@@ -60,10 +60,11 @@
   }
   .serviceTitle{
     text-decoration:none;
-    color:#168B80;
     font-weight:bolder;
     font-size:x-large;
-    background-color:#EBEBEB;
+
+    color: white;
+    background-color: #3c667c;
     width: 100% !important;
     height: 5rem !important;
     margin:auto;

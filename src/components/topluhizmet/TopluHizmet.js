@@ -6,7 +6,7 @@ import "./TopluHizmet.css";
 import m1 from "./hizmetFotolar/m1.jpeg";
 import m2 from "./hizmetFotolar/m2.jpeg";
 import m3 from "./hizmetFotolar/m3.jpeg";
-import m4 from "./hizmetFotolar/m4.jpeg";
+import m4 from "./hizmetFotolar/m4.PNG";
 import m5 from "./hizmetFotolar/m5.jpeg";
 import m6 from "./hizmetFotolar/m6.jpeg";
 
