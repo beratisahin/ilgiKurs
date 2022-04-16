@@ -17,7 +17,7 @@ function Home() {
     <div>
  
       <div className="col-12 homepageSlider" style={{width:"80%",justifyContent:"center",margin:"auto"}}>
-        <p className="acilDurumMobil" style={{display:"none"}}>Kayıtlarımız ücretsizdir.</p>
+        <p className="acilDurumMobil" style={{display:"none"}}>Kayıtlarımız başlamıştır</p>
          <Slider/>  
       </div>
       

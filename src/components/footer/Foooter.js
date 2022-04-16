@@ -32,7 +32,7 @@ export default class Foooter extends Component {
       <div id="footer">
         <div class="row p-4" style={{ backgroundColor: "white", height:"auto" }}>
           <div className="col-lg-4 col-md-6 col-sm-6 col-12" style={{ fontSize: "15px",marginBottom:"2rem"  }}>
-            <a href="/" title="Medisam Ağız ve Diş Sağlığı Polikliniği" alt="Tokat İlgi Kurs Merkezi">
+            <a href="/" title="Tokat İlgi Kurs Merkezi" alt="Tokat İlgi Kurs Merkezi">
               <img
                 src={MainLogo}
                 alt="logo"

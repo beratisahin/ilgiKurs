@@ -4,8 +4,11 @@ import OwlCarousel from 'react-owl-carousel';
 import 'owl.carousel/dist/assets/owl.carousel.min.css'
 import 'owl.carousel/dist/assets/owl.theme.default.min.css'
 import { NavigateBeforeSharp } from '@material-ui/icons';
-import Ft from "./ft.PNG";
-import Mt from "./mt.PNG";
+import t1 from "./t1.jpg";
+import t2 from "./t2.jpg";
+import t3 from "./t3.jpg";
+import t4 from "./t4.jpg";
+
 
 
 
@@ -47,22 +50,22 @@ export default function DoktorOwl() {
                  
                 <div className="item owl-slider">
                     <div className="owlCarouselTempDoktor">
-                        <img src={Ft} className="owlCarouselImageDoktor" alt="Tokat İlgi Kurs Merkezi" title="Tokat İlgi Kurs Merkezi"></img>
-                        <p className="owlCarouselContentDoktor">Tarih Öğr. Fatma Yılmaz</p>
+                        <img src={t2} className="owlCarouselImageDoktor" alt="Tokat İlgi Kurs Merkezi" title="Tokat İlgi Kurs Merkezi"></img>
+                        <p className="owlCarouselContentDoktor">Matematik Öğr. Fatma Yılmaz</p>
                         <p className="owlCarouselContentDoktorInfo">Fatma Yılmaz 2011 yılında Tokat Gazi Osman Paşa Üniversitesinden mezun olmuştur.</p>
                         
                     </div>
                 </div>
                     <div className="item owl-slider">
                         <div className="owlCarouselTempDoktor">
-                            <img src={Mt} className="owlCarouselImageDoktor" alt="Tokat İlgi Kurs Merkezi" title="Tokat İlgi Kurs Merkezi"></img>
+                            <img src={t1} className="owlCarouselImageDoktor" alt="Tokat İlgi Kurs Merkezi" title="Tokat İlgi Kurs Merkezi"></img>
                         <p className="owlCarouselContentDoktor">Fizik Öğr. Furkan Baysal</p>
                         <p className="owlCarouselContentDoktorInfo">Furkan Baysal 2010 yılında Tokat Gazi Osman Paşa Üniversitesinden mezun olmuştur. </p>
                     </div>
                 </div>
                 <div className="item owl-slider">
                     <div className="owlCarouselTempDoktor">
-                        <img src={Ft} className="owlCarouselImageDoktor" alt="Tokat İlgi Kurs Merkezi" title="Tokat İlgi Kurs Merkezi"></img>
+                        <img src={t3} className="owlCarouselImageDoktor" alt="Tokat İlgi Kurs Merkezi" title="Tokat İlgi Kurs Merkezi"></img>
                         <p className="owlCarouselContentDoktor">Tarih Öğr. Merve Güneş</p>
                         <p className="owlCarouselContentDoktorInfo">Merve Güneş 2011 yılında Tokat Gazi Osman Paşa Üniversitesinden mezun olmuştur.</p>
                         
@@ -70,7 +73,7 @@ export default function DoktorOwl() {
                 </div>
                     <div className="item owl-slider">
                         <div className="owlCarouselTempDoktor">
-                            <img src={Mt} className="owlCarouselImageDoktor" alt="Tokat İlgi Kurs Merkezi" title="Tokat İlgi Kurs Merkezi"></img>
+                            <img src={t4} className="owlCarouselImageDoktor" alt="Tokat İlgi Kurs Merkezi" title="Tokat İlgi Kurs Merkezi"></img>
                         <p className="owlCarouselContentDoktor">Kimya Öğr. Ali Erdener</p>
                         <p className="owlCarouselContentDoktorInfo">Ali Erdener 2010 yılında Tokat Gazi Osman Paşa Üniversitesinden mezun olmuştur. </p>
                     </div>
