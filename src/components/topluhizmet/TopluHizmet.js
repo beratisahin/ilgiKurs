@@ -60,7 +60,7 @@ export default function TopluHizmet() {
                     taslaktitle="Kaliteli Yayınlar"
                     taslakphoto={m6}
                     taslaktext="Geleceğinizle 'İLGİ'leniyoruz. İLGİ kazandırır... İLGİde kayıt zamanı... ERKEN KAYIT avantajlarımız başlamıştır..."
-                    taslaklink="/agiz-dis-sagligi/kanal-ve-dolgu-tedavisi"
+                    taslaklink="/kaliteli-yayinlar"
                 />
             </div>
             
