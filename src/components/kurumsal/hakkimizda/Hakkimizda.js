@@ -17,7 +17,7 @@ function Hakkimizda() {
                 <div className="card-body col-12">
                     <br/>
                     <h4 style={{color:"#55D1BC"}}>Hikayemiz</h4>
-                    <p class="hizmet-text" >“Hiçbir Başarı Tesadüf Değildir”
+                    <p class="hizmet-text" >“Hiçbir Başarı Tesadüf Değildir.”
 
 Tokat İlgi Kurs Merkezinin öyküsü. Anadolu’nun şirin bir kenti olan Tokat'ta kurulmuştur. Tokat İlgi Kursu Merkezi, kurulduğu günlerde inanıyordu “hiçbir başarının tesadüf olmadığına...” Bu mütevazı başlangıcın ciddi bir eğitim kervanına dönüşeceğine... Ülkenin dört bir yanında bir eğitim meşalesi tutuşturacağına... Türkiye’nin en ücra köşelerine kadar ulaşacağına... Bu inançla çıktı yola…
 
