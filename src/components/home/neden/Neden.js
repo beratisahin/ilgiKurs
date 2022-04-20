@@ -36,7 +36,7 @@ export default class Neden extends Component {
                   
                    <div className="col-lg-4 col-md-6 col-sm-6 col-12">
                         <p class="card-baslik"><AssignmentTurnedInIcon style={{color:"#2E6772",fontSize:"larger"}}/>&nbsp; Kaliteli Hizmet</p>
-                        <p class="card-neden"> Öğrencilerimize kaliteli hizmetler sunmaktayız.</p>
+                        <p class="card-neden"> Öğrencilerimize kaliteli eğitimler vermekteyiz.</p>
                         
                    </div>
 
