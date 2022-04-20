@@ -31,12 +31,12 @@ function Home() {
         <TopluHizmet/>
       </div>
         
-      {/* <hr/>
+       <hr/>
       <div className="col-12">
         <h2 className="doktorlarTitle" style={{textAlign:"center",fontSize:"x-large",color:"#3d667c",fontFamily: "'Times New Roman', Times, serif;"}}>Öğretmenlerimiz</h2>
         <DoktorOwl/> 
         
-      </div> */}
+      </div> 
       
       <br/>
       <hr/>
