@@ -37,7 +37,7 @@ const options = {
             items: 2,
         },
         1000: {
-            items: 3,
+            items: 2,
         }
     },
   };
@@ -94,28 +94,7 @@ export default function DoktorOwl() {
                 />
                 </div>
 
-                <div className="item owl-slider">
-                <ReactPlayer
-                    className="react-player"
-                    style={{ margin: "0.5rem", overFlow: "hidden",border:"2px inset #cf482c",borderRadius:"5px",padding:"2px"}}
-                    url={V1}
-                    controls={true}
-                    playing={true} 
-                    loop={false} 
-                    volume={0.5}
-                    width="95%"
-                    height="auto"
-                    
-                    config={{
-                        file: {
-                        attributes: {
-                            controlsList: "nofullscreen",
-                            muted:"true"
-                        },
-                        },
-                    }}
-                />
-                </div>
+                
             </OwlCarousel>
 
         </div>

@@ -26,8 +26,7 @@ Tokat İlgi Kurs Merkezi; gelecekte ülkemizin dört bir yanında yer alıp güz
                 <h4 style={{color:"#ef3a23"}}>Vizyonumuz</h4>
                 <p class="hizmet-text">
                     
-                        Her yerde ve her zaman başarılı olacak, <br/>
-                        Geleceği şimdiden hazır, 21. yüzyılın;
+                        Her yerde ve her zaman başarılı olacak, Geleceği şimdiden hazır, 21. yüzyılın;
                         <ul style={{paddingLeft:"4rem"}}>
                             <li>Yaratıcı,</li>
                             <li>Dünyaya uyumlu,</li>
@@ -39,7 +38,7 @@ Tokat İlgi Kurs Merkezi; gelecekte ülkemizin dört bir yanında yer alıp güz
                             <li>Dinamik,</li>
                             <li>Öğrenmeyi seven,</li>
                         </ul>
-  Bireylerin yetiştirildiği hir kurum olmak </p>
+  Bireylerin yetiştirildiği bir kurum olmaktır. </p>
                 <h4 style={{color:"#ef3a23"}}>Misyonumuz</h4>
                 <p class="hizmet-text">
                     <ul style={{paddingLeft:"4rem"}}>
@@ -47,7 +46,7 @@ Tokat İlgi Kurs Merkezi; gelecekte ülkemizin dört bir yanında yer alıp güz
                         <li>Her çocuğun içindeki yaratıcı, çok yönlü, kendi haklarını koruyabilen, güven, hoşgörü ve sevginin hakim olduğu bir ortam yaratmak,</li>
                         <li>Kurumumuzu; öğrencileri, ögretmenleri, ve velileri ile çevrede örnek gösterebilecek ve gurur duyacak bir kurum haline getirmek,</li>
                         <li>Öğrencilerimizin istek ve ihtiyaçlarını en kısa sürede giderecek, onları başarıya götüren yolda motive edip, umut ve güveni aşılayarak hedeflerine emin adımlarla gitmelerini sağlamak,</li>
-                        <li>Çocuklarımıza mutlu ve başarılı bireyler olma isteğini ve yeteneğini kazandırmak</li>
+                        <li>Çocuklarımıza mutlu ve başarılı bireyler olma isteğini ve yeteneğini kazandırmaktır.</li>
                     
                     </ul>
                 </p>
