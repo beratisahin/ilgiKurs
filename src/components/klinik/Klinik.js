@@ -52,8 +52,8 @@ const options = {
 
 export default function Klinik() {
     return (
-       
-             <OwlCarousel className="owl-theme owl-roof" {...options}>
+        <div class="col-12">
+            <OwlCarousel className="owl-theme owl-roof" {...options}>
                  <div className="item owl-slider">
                     <div className="owlCarouselTempKlinik">
                         <img src={r1} className="owlCarouselImageKlinik" alt="Tokat İlgi Kurs Merkezi" title="Tokat İlgi Kurs Merkezi"></img>
@@ -105,16 +105,8 @@ export default function Klinik() {
                     </div>
                 </div>
                 
-              
-                
-                
-               
-              
-                
-                
-
-</OwlCarousel>
-
+            </OwlCarousel>
+        </div>
 
             
         

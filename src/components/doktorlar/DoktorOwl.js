@@ -1,13 +1,11 @@
 import React from 'react'
+import ReactPlayer from "react-player";
 import './DoktorOwl.css';
 import OwlCarousel from 'react-owl-carousel';
 import 'owl.carousel/dist/assets/owl.carousel.min.css'
 import 'owl.carousel/dist/assets/owl.theme.default.min.css'
 import { NavigateBeforeSharp } from '@material-ui/icons';
-import t1 from "./t1.jpg";
-import t2 from "./t2.jpg";
-import t3 from "./t3.jpg";
-import t4 from "./t4.jpg";
+import V1 from "./ilgiVideo1.mp4";
 
 
 
@@ -18,8 +16,8 @@ const options = {
     autoplayHoverPause:true,
     responsiveClass: true,
     dots:2,
-    autoplay: true,
-    loop:true,
+    autoplay: false,
+    loop:false,
     dotsSpeed:2,
     navText: ["",""],
     smartSpeed: 1000,
@@ -37,7 +35,7 @@ const options = {
             items: 2,
         },
         1000: {
-            items: 4,
+            items: 3,
         }
     },
   };
@@ -45,47 +43,80 @@ const options = {
 
 export default function DoktorOwl() {
     return (
-       
-             <OwlCarousel className="owl-theme owl-roof" {...options}>
+       <div class="col-12">
+            <OwlCarousel className="owl-theme owl-roof" {...options}>
                  
                 <div className="item owl-slider">
-                    <div className="owlCarouselTempDoktor">
-                        <img src={t2} className="owlCarouselImageDoktor" alt="Tokat İlgi Kurs Merkezi" title="Tokat İlgi Kurs Merkezi"></img>
-                        <p className="owlCarouselContentDoktor">Matematik Öğr. Fatma Yılmaz</p>
-                        <p className="owlCarouselContentDoktorInfo">Fatma Yılmaz 2011 yılında Tokat Gazi Osman Paşa Üniversitesinden mezun olmuştur.</p>
-                        
-                    </div>
+                <ReactPlayer
+                    className="react-player"
+                    style={{ margin: "auto", overFlow: "hidden",border:"2px inset #2E6772",borderRadius:"5px",padding:"2px"}}
+                    url={V1}
+                    controls={true}
+                    playing={true} 
+                    loop={false} 
+                    volume={0.5}
+                    width="95%"
+                    height="auto"
+                    
+                    config={{
+                        file: {
+                        attributes: {
+                            controlsList: "nofullscreen",
+                            muted:"true"
+                        },
+                        },
+                    }}
+                />
                 </div>
-                    <div className="item owl-slider">
-                        <div className="owlCarouselTempDoktor">
-                            <img src={t1} className="owlCarouselImageDoktor" alt="Tokat İlgi Kurs Merkezi" title="Tokat İlgi Kurs Merkezi"></img>
-                        <p className="owlCarouselContentDoktor">Fizik Öğr. Furkan Baysal</p>
-                        <p className="owlCarouselContentDoktorInfo">Furkan Baysal 2010 yılında Tokat Gazi Osman Paşa Üniversitesinden mezun olmuştur. </p>
-                    </div>
-                </div>
+
                 <div className="item owl-slider">
-                    <div className="owlCarouselTempDoktor">
-                        <img src={t3} className="owlCarouselImageDoktor" alt="Tokat İlgi Kurs Merkezi" title="Tokat İlgi Kurs Merkezi"></img>
-                        <p className="owlCarouselContentDoktor">Tarih Öğr. Merve Güneş</p>
-                        <p className="owlCarouselContentDoktorInfo">Merve Güneş 2011 yılında Tokat Gazi Osman Paşa Üniversitesinden mezun olmuştur.</p>
-                        
-                    </div>
+                <ReactPlayer
+                    className="react-player"
+                    style={{ margin: "auto", overFlow: "hidden",border:"2px inset #2E6772",borderRadius:"5px",padding:"2px"}}
+                    url={V1}
+                    controls={true}
+                    playing={true} 
+                    loop={false} 
+                    volume={0.5}
+                    width="95%"
+                    height="auto"
+                    
+                    config={{
+                        file: {
+                        attributes: {
+                            controlsList: "nofullscreen",
+                            muted:"true"
+                        },
+                        },
+                    }}
+                />
                 </div>
-                    <div className="item owl-slider">
-                        <div className="owlCarouselTempDoktor">
-                            <img src={t4} className="owlCarouselImageDoktor" alt="Tokat İlgi Kurs Merkezi" title="Tokat İlgi Kurs Merkezi"></img>
-                        <p className="owlCarouselContentDoktor">Kimya Öğr. Ali Erdener</p>
-                        <p className="owlCarouselContentDoktorInfo">Ali Erdener 2010 yılında Tokat Gazi Osman Paşa Üniversitesinden mezun olmuştur. </p>
-                    </div>
+
+                <div className="item owl-slider">
+                <ReactPlayer
+                    className="react-player"
+                    style={{ margin: "0.5rem", overFlow: "hidden",border:"2px inset #2E6772",borderRadius:"5px",padding:"2px"}}
+                    url={V1}
+                    controls={true}
+                    playing={true} 
+                    loop={false} 
+                    volume={0.5}
+                    width="95%"
+                    height="auto"
+                    
+                    config={{
+                        file: {
+                        attributes: {
+                            controlsList: "nofullscreen",
+                            muted:"true"
+                        },
+                        },
+                    }}
+                />
                 </div>
-               
-               
-               
-              
-            
-</OwlCarousel>
+            </OwlCarousel>
 
-
+        </div>
             
         
     )

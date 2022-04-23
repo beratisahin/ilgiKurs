@@ -31,17 +31,19 @@ function Home() {
         <TopluHizmet/>
       </div>
         
-      {/* <hr/>
-      <div className="col-12">
-        <h2 className="doktorlarTitle" style={{textAlign:"center",fontSize:"x-large",color:"#3d667c",fontFamily: "'Times New Roman', Times, serif;"}}>Öğretmenlerimiz</h2>
+       <hr/>
+       <h2 className="doktorlarTitle" style={{textAlign:"center",fontSize:"x-large",color:"#3d667c",fontFamily: "'Times New Roman', Times, serif;"}}>Kursumuzdan Videolar</h2>
+      <div className="row">
+       
         <DoktorOwl/> 
         
-      </div> */}
+      </div> 
       
       <br/>
       <hr/>
-      <div className="col-12">
-      <h2 className="doktorlarTitle" style={{textAlign:"center",fontSize:"x-large",color:"#3d667c",fontFamily: "'Times New Roman', Times, serif;"}}>Sınıflarımız</h2>
+      <h2 className="doktorlarTitle" style={{textAlign:"center",fontSize:"x-large",color:"#3d667c",fontFamily: "'Times New Roman', Times, serif;"}}>Kursumuzdan Resimler</h2>
+      <div className="row">
+      
          <Klinik/>
       </div>
      

@@ -83,6 +83,10 @@
        margin:auto !important;
        height: 40rem !important;
       }
+      .react-player{
+         display:flex !important;
+         margin-bottom: 2rem !important;
+       }
   
      
  }

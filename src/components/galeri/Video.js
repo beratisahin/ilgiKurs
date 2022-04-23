@@ -8,13 +8,11 @@ export default function Video() {
     return (
         <div className="col-12">
             <div className="card m-4" style={{align:"center",backgroundColor:"#f8f7fb",borderRadius:"5px"}}>
-               <Title 
-                    page_title="Videolar"
-               />
+               
                 
                 <div className="card-body col-12">
-                    <br/>
-                      
+                   
+                    
                 </div>
             </div>
             
