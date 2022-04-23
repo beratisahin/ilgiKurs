@@ -49,7 +49,7 @@ export default function DoktorOwl() {
                 <div className="item owl-slider">
                 <ReactPlayer
                     className="react-player"
-                    style={{ margin: "auto", overFlow: "hidden",border:"2px inset #2E6772",borderRadius:"5px",padding:"2px"}}
+                    style={{ margin: "auto", overFlow: "hidden",border:"2px inset #cf482c",borderRadius:"5px",padding:"2px"}}
                     url={V1}
                     controls={true}
                     playing={true} 
@@ -72,7 +72,7 @@ export default function DoktorOwl() {
                 <div className="item owl-slider">
                 <ReactPlayer
                     className="react-player"
-                    style={{ margin: "auto", overFlow: "hidden",border:"2px inset #2E6772",borderRadius:"5px",padding:"2px"}}
+                    style={{ margin: "auto", overFlow: "hidden",border:"2px inset #cf482c",borderRadius:"5px",padding:"2px"}}
                     url={V1}
                     controls={true}
                     playing={true} 
@@ -95,7 +95,7 @@ export default function DoktorOwl() {
                 <div className="item owl-slider">
                 <ReactPlayer
                     className="react-player"
-                    style={{ margin: "0.5rem", overFlow: "hidden",border:"2px inset #2E6772",borderRadius:"5px",padding:"2px"}}
+                    style={{ margin: "0.5rem", overFlow: "hidden",border:"2px inset #cf482c",borderRadius:"5px",padding:"2px"}}
                     url={V1}
                     controls={true}
                     playing={true} 

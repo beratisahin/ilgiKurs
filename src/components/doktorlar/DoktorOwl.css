@@ -9,7 +9,7 @@
     border-radius: 1rem; 
     height: 45rem !important;
     width: 95%;
-    border: 1px dotted #168B80;
+    border: 1px dotted #cf482c;
     padding: 5px !important;
     background-image:url('dentalbg13.png');
     background-repeat: no-repeat;
@@ -50,7 +50,7 @@
  }
  .owlCarouselImageDoktor:hover{
      opacity: .5;
-    border: 3px groove #168B80;;
+    border: 3px groove #cf482c;
  }
  
  

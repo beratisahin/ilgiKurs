@@ -12,7 +12,7 @@ render() {
                 <div class="details">
                       
                         <h2 className="serviceTitle">{taslaktitle}</h2>
-                        <p>{taslaktext}</p>
+                        <p style={{color:"#2b398e"}}>{taslaktext}</p>
                 </div>
 
                 <div class="more">
