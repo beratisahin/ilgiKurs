@@ -45,7 +45,7 @@ const options = {
 
 export default function DoktorOwl() {
     return (
-       <div class="col-12">
+       <div class="col-12" style={{justifyContent:"center"}}>
             <OwlCarousel className="owl-theme owl-roof" {...options}>
                  
                 <div className="item owl-slider">
