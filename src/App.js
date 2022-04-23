@@ -9,8 +9,7 @@ import {
 } from "react-router-dom";
 
 import Home from "./components/home/Home";
-import Hakkimizda from "./components/kurumsal/hakkimizda/Hakkimizda";
-import Belgerimiz from "./components/kurumsal/belgelerimiz/Belgelerimiz";
+import Hakkimizda from "./components/hakkimizda/Hakkimizda";
 import Iletisim from "./components/iletisim/ContactForm";
 
 import Implant from "./components/hizmetler/Implant";
@@ -21,8 +20,6 @@ import Sinav from "./components/hizmetler/Sinav";
 import Odev from "./components/hizmetler/Odev";
 import Yayin from "./components/hizmetler/Yayin";
 
-import Fotograf from "./components/galeri/Fotograf";
-import Video from "./components/galeri/Video.js";
 import Duyuru from "./components/galeri/Duyuru.js";
 
 
@@ -44,7 +41,6 @@ function App() {
             <Route exact path="/" component={Home} />
             <Route exact path="/anasayfa" component={Home} />
             <Route path="/hakkimizda" component={Hakkimizda} />
-            <Route path="/vizyonumuz" component={Belgerimiz} />
             
             
 
@@ -56,9 +52,6 @@ function App() {
             <Route path="/okul-ve-odev-takip-sistemi" component={Odev} />
             <Route path="/kaliteli-yayinlar" component={Yayin} />
 
-
-            <Route path="/fotograflar" component={Fotograf} />
-            <Route path="/videolar" component={Video} />
             <Route path="/duyurular" component={Duyuru} />
 
 

@@ -6,6 +6,8 @@ import 'owl.carousel/dist/assets/owl.carousel.min.css'
 import 'owl.carousel/dist/assets/owl.theme.default.min.css'
 import { NavigateBeforeSharp } from '@material-ui/icons';
 import V1 from "./ilgiVideo1.mp4";
+import V2 from "./ilgiVideo2.mp4";
+
 
 
 
@@ -73,7 +75,7 @@ export default function DoktorOwl() {
                 <ReactPlayer
                     className="react-player"
                     style={{ margin: "auto", overFlow: "hidden",border:"2px inset #cf482c",borderRadius:"5px",padding:"2px"}}
-                    url={V1}
+                    url={V2}
                     controls={true}
                     playing={true} 
                     loop={false} 

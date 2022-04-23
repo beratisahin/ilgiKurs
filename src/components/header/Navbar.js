@@ -43,20 +43,7 @@ export default class Navbar extends Component {
             <input type="checkbox" id="input-hamburger" hidden></input>
         <ul class="menu">
           <li><a href="/" class="menu-link" style={{fontSize:"medium"}}><HomeIcon style={{fontSize:"medium"}}/>&nbsp;Ana Sayfa</a></li>
-          <li class="has-dropdown">
-            <a href="#" class="menu-link" style={{fontSize:"medium"}}><BusinessIcon style={{fontSize:"medium"}}/>&nbsp;Kurumsal &nbsp;
-              <span class="arrow"></span>
-            </a>
-            <ul class="submenu">
-            
-            <li><a href="/hakkimizda" class="menu-link">Hakkımızda</a></li>
-            <li><a href="/vizyonumuz" class="menu-link">Vizyonumuz</a></li>
-      
-              
-            </ul>
-          </li>
-
-          
+          <li><a href="/hakkimizda" class="menu-link" style={{fontSize:"medium"}}><BusinessIcon style={{fontSize:"medium"}}/>&nbsp;Hakkımızda</a></li>
           <li class="has-dropdown">
             <a href="#" class="menu-link" style={{fontSize:"medium"}}><CastForEducationIcon style={{fontSize:"medium"}}/>&nbsp;Hizmetlerimiz &nbsp;
               <span class="arrow"></span>
