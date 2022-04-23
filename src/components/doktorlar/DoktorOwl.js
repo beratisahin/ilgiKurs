@@ -54,7 +54,7 @@ export default function DoktorOwl() {
                     style={{ margin: "auto", overFlow: "hidden",border:"2px inset #cf482c",borderRadius:"5px",padding:"2px"}}
                     url={V1}
                     controls={true}
-                    playing={true} 
+                    playing={false} 
                     loop={false} 
                     volume={0.5}
                     width="95%"
@@ -77,7 +77,7 @@ export default function DoktorOwl() {
                     style={{ margin: "auto", overFlow: "hidden",border:"2px inset #cf482c",borderRadius:"5px",padding:"2px"}}
                     url={V2}
                     controls={true}
-                    playing={true} 
+                    playing={false} 
                     loop={false} 
                     volume={0.5}
                     width="95%"
